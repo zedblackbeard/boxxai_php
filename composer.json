@@ -2,17 +2,12 @@
     "name": "boxxai/boxxai_php",
     "type": "library",
     "description": "Boxxai PHP Client Library",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Boxxai",
-        }
-    ],
+    "license": "MIT",    
     "require": {
         "php": ">= 5.4.0"
     },
     "autoload": {
-	   "psr-0": {
+       "psr-0": {
             "Boxxai": "lib/"
         },
         "psr-4": {
